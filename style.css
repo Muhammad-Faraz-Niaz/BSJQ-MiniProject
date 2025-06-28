@@ -1,0 +1,140 @@
+ :root {
+     --primary: #003366;
+     --secondary: #f8f9fa;
+     --accent: #ff6b35;
+     --dark: #212529;
+     --light: #f8f9fa;
+ }
+
+ body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: #333;
+     padding-top: 56px;
+     /* For fixed navbar */
+ }
+#logo{
+    font-size: 1.5rem !important;
+}
+
+ span {
+     color: #328ce6;
+     font-size: 1.5rem !important;
+ }
+
+/* Hero */
+#hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url(/Assests/hero.jpg) center/cover no-repeat;
+    height: 75vh;
+}
+.hero-content{
+    height: 75vh;
+}
+/* SUV Page */
+#suv-hero{
+       background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url(/Assests/audi-Q7.jpg) center/cover no-repeat;
+    
+       height: 400px;
+}
+.suv-content{
+    height: 400px;
+}
+/* sedan Page */
+#sedan-hero{
+       background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url(/Assests/audi-r8.jpg) center/cover no-repeat;
+    
+       height: 400px;
+}
+ 
+/*sports Page */
+#sports-hero{
+       background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url(/Assests/sports.jpg) center/cover no-repeat;
+    
+       height: 400px;
+}
+
+/* about Page */
+#about-hero{
+       background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url(/Assests/sedan.jpg) center/cover no-repeat;
+    
+       height: 400px;
+}
+.designation{
+    color: #003366 ;
+}
+
+/* contact Page */
+#contact-hero{
+       background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url(/Assests/white.jpg) center/cover no-repeat;
+    
+       height: 400px;
+}
+
+iframe{
+    width: 100%;
+}
+
+/*  */
+
+
+/* buttons */
+.inventory-btn{
+    background-color: var(--primary);
+    color: var(--light);
+}
+.inventory-btn:hover{
+   color: var(--primary);
+    background-color: var(--light);
+}
+.contact-btn{
+  background-color: var(--light);
+    color: var(--dark);
+}
+.contact-btn:hover{
+   color: var(--light);
+    background-color: var(--dark);
+}
+
+/* crads */
+.card{
+    border-radius: 1rem !important;
+}
+.card:hover{
+    box-shadow: 5px 5px 3px gray;
+    transform: translateY(-10px);
+    transition: all 0.5s ;
+}
+
+.card img{
+    height: 300px;
+    border-radius: 1rem 1rem 0 0;
+}
+
+
+
+
+
+ /* .rating {
+     color: #FFD700;
+ } */
+
+
+ footer{
+    background-color: var(--primary);
+ }
+
+ footer  li{
+    list-style-type: none;
+ }
+ footer a{
+    color: var(--light);
+    text-decoration: none;
+ }
+ footer a:hover{
+    color: var(--accent);
+   
+ }
+
+ i{
+    font-size: 1.5rem;
+   
+ }
